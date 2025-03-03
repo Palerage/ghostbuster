@@ -1,0 +1,13 @@
+//utils/constants.ts
+
+//VISUELL SAFEAREA
+export const SAFE_ZONE_RADIUS = 25;
+
+// SKAPA SAFEAREA
+export const TARGET_DISTANCE = 400;
+export const TARGET_TOLERANCE = 50;
+export const TARGET_RADIUS = 50;
+
+//VISUELL SEARCHAREA
+export const OUTER_DISTANCE = 25;
+export const SEARCH_ZONE_RADIUS = SAFE_ZONE_RADIUS + OUTER_DISTANCE + 100;
